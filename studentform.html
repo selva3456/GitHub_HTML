@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+
+</head>
+<body>
+    <h1>Student Form</h1>
+
+        <fieldset>
+            <legend>Fill the details</legend>
+    <form action="" autocomplete="off">
+        <label for="sn">Student Name:</label>
+        <input type="text" id="sn" placeholder="Enter Your Name" name="sname" value="" required maxlength="10"> 
+        <br>
+        <br>        
+        
+        <label for="ph">Phone Number:</label>
+        <input type="number" id="ph" maxlength="10" placeholder="Enter Your Phone Number" name="phno" required>
+        
+        <br><br>
+        
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="password" id="pass" placeholder="Enter Your password" required maxlength="6">
+          
+        <br><br>
+          
+        <label for="age">Enter Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter Your Age" required maxlength="2">
+           
+        <br><br>
+           
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required>
+           
+        <br><br>
+        
+        <label for="email">Enter Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required readonly value="selva20@gmail.com">
+         
+        <br><br>          
+        
+        <label for="">Subjects:</label>
+        
+        <br><br>
+    
+        <input type="checkbox" name="sub1" id="sub1" value="html" >
+        <label for="sub1">HTML</label>
+        <input type="checkbox" name="sub2" id="sub2" value="css" >
+        <label for="sub2">CSS</label>
+        <input type="checkbox" name="sub3" id="sub3" value="javascript">
+        <label for="sub3">JavaScript</label>
+        <input type="checkbox" name="sub4" id="sub4" value="java">
+        <label for="sub4">Java</label>
+        <input type="checkbox" name="sub5" id="sub5" value="sql">
+        <label for="sub5">SQL</label>
+           
+        <br><br>  
+           
+        <label for="">Select Gender:</label >
+        <br><br>
+           <input type="radio" name="gender" id="male" value="male">
+           <label for="male">Male</label>
+           <input type="radio" name="gender" id="female" value="female">
+           <label for="female">Female</label>
+           <input type="radio" name="gender" id="others" value="others">
+           <label for="others">Others</label>
+           <br><br>
+
+           <label for="address">Enter Your Address:</label>
+           <br>
+           <textarea  name="address" id="address" placeholder="Enter Your Address" rows="5" cols="30" required></textarea>
+           <br><br>
+           <label for="">Select Course:</label>
+              <select name="" id="" required>
+                <option value="javafullstack">JavaFullStack</option>
+                <option value="pythonfullstack">PythonFullStack</option>
+                <option value="mernstack">MernFullStack</option>
+                <option value="detescience">DataScience</option>
+                <option value="dataanalytics">DataAnalytics</option>
+              </select>
+              <br><br> 
+           <input type="file">
+           <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </fieldset>
+</body>
+</html>
